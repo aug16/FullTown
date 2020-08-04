@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Notable&display=swap");
+
+h1{
+  font-size: 1.5rem;
+}
+h2{
+  font-size: 1.4rem;
+}
+h3{
+  font-size: 1.2rem;
+}
+.card-text{
+  font-size: 1rem;
+}
+
+.mixed {
+  font-family: "Notable", sans-serif;
+  font-size: 3rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+}
+
+.mixed1 {
+  font-family: "Notable", sans-serif;
+  font-size: 1.5rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+}
+
+.mixed3 {
+  font-family: "Notable", sans-serif;
+  font-size: 2.9rem;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+}
+
+.mixed2 {
+  font-family: "Notable", sans-serif;
+  font-size: 1.5rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+  text-orientation: mixed;
+  transform: rotate(-0deg);
+}
+
+.t2 {
+  font-family: "Notable", sans-serif;
+  font-size: 1.2rem;
+}
+
+.t21 {
+  font-family: "Notable", sans-serif;
+  font-size: 0.8rem;
+}
+
+.t1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.7rem;
+}
+
+.t3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.t01 {
+  position: relative;
+}
+
+.t02 {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+}
+
+.t03 {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+.h-01 {
+  position: relative;
+  height: 3rem;
+}
+
+.h-02 {
+  position: relative;
+  top: 0.25rem;
+}
+
+.vl {
+  position: absolute;
+  border-left: 0.15rem solid #6c757d;
+  height: 1.5rem;
+  margin-left: 9.6rem;
+  top: 0.5rem;
+}
+
+.border-bottom1 {
+  border-bottom: 2px solid #ffffff;
+}
+
+.border-bottom2 {
+  border-bottom: 2px solid #6c757d;
+}
+
+.h-03 {
+  position: relative;
+  height: 2.4rem;
+}
+
+.h-04 {
+  position: relative;
+  height: 2.3rem;
+}
+
+.h-05 {
+  position: relative;
+  height: 5rem;
+}
+
+.h-06 {
+  height: 4.9em;
+}
+
+/* Underline Reveal */
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-reveal:hover:before,
+.hvr-underline-reveal:focus:before,
+.hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.mydeal-nav-brand::-webkit-scrollbar {
+  display: none;
+}
+
+.mydeal-nav-brand {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.f-01 {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.ft_box_1 {
+  border: 0.2rem solid #66cdd9;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_1::before {
+  background-color: #fff;
+  color: #66cdd9;
+  content: "WALLPANEL";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: "Notable", sans-serif;
+}
+
+.ft_box_2 {
+  border: 0.2rem solid #04bf10;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_2::before {
+  background-color: #fff;
+  color: #04bf10;
+  content: "CEILING";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: "Notable", sans-serif;
+}
+
+.ft_box_3 {
+  border: 0.2rem solid #f2b705;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_3::before {
+  background-color: #fff;
+  color: #f2b705;
+  content: "DECKING";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: "Notable", sans-serif;
+}
+
+.ft_box_4 {
+  border: 0.2rem solid #5151a2;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_4::before {
+  background-color: #fff;
+  color: #5151a2;
+  content: "Lattice";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: "Notable", sans-serif;
+}
+
+.ft_box_5 {
+  border: 0.2rem solid #4e94bf;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_5::before {
+  background-color: #fff;
+  color: #4e94bf;
+  content: "Louver";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: "Notable", sans-serif;
+}
+
+.ft_box_6 {
+  border: 0.2rem solid #4e94bf;
+  /* 框線顏色 */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.ft_box_6::before {
+  background-color: #fff;
+  color: #4e94bf;
+  content: "如何購買";
+  /*標題*/
+  font-weight: bold;
+  font-size: 1rem;
+  left: 1.2rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -1rem;
+  font-family: ;
+}
+
+.ht-1 {
+  position: absolute;
+  top: 0.45rem;
+  left: 10.3rem;
+  font-size: 1.2rem;
+}
+
+.text-muted {
+  font-size: rem;
+}
+
+.t04 {
+  position: absolute;
+  top: -80px;
+  left: 15px;
+}
+
+.card-columns1 {
+  column-gap: 0;
+
+}
+
+.card-columns1 .card {
+  margin: 0;
+}
