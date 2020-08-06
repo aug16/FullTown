@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Notable&display=swap");
 
-h1{
+h1 {
   font-size: 1.5rem;
 }
-h2{
+
+h2 {
   font-size: 1.4rem;
 }
-h3{
+
+h3 {
   font-size: 1.2rem;
 }
-.card-text{
+
+.card-text {
   font-size: 1rem;
 }
 
@@ -66,6 +69,10 @@ h3{
   font-family: "Notable", sans-serif;
   font-size: 0.8rem;
 }
+.t22 {
+  font-family: "Notable", sans-serif;
+  font-size: 1rem;
+}
 
 .t1 {
   font-family: "Lato", sans-serif;
@@ -112,6 +119,14 @@ h3{
   border-left: 0.15rem solid #6c757d;
   height: 1.5rem;
   margin-left: 9.6rem;
+  top: 0.5rem;
+}
+
+.vl1 {
+  position: absolute;
+  border-left: 0.15rem solid #6c757d;
+  height: 1.5rem;
+  margin-left: 12rem;
   top: 0.5rem;
 }
 
@@ -330,6 +345,13 @@ h3{
   position: absolute;
   top: 0.45rem;
   left: 10.3rem;
+  font-size: 1.2rem;
+}
+
+.ht-2 {
+  position: absolute;
+  top: 0.45rem;
+  left: 12.5rem;
   font-size: 1.2rem;
 }
 
