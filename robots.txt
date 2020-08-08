@@ -6,5 +6,5 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://fulltown.taipei/sitemap.xml
+Sitemap: http://fulltown.taipei/sitemap.xml
  
