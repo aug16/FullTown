@@ -112,7 +112,7 @@
 
 .vl {
   position: absolute;
-  border-left: 0.15rem solid #6c757d;
+  border-start: 0.15rem solid #6c757d;
   height: 1.5rem;
   margin-left: 9.6rem;
   top: 0.5rem;
@@ -120,7 +120,7 @@
 
 .vl_1 {
   position: absolute;
-  border-left: 0.15rem solid #6c757d;
+  border-start: 0.15rem solid #6c757d;
   height: 1.5rem;
   margin-left: 12rem;
   top: 0.5rem;
