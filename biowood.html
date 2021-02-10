@@ -68,7 +68,8 @@
   <meta property="ia:rules_url" content="https://fulltown.taipei/biowood.html">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/css/style.css">
 
@@ -377,7 +378,7 @@
                 <p class="fs-6 fw-bold">複合木不含接著劑、無甲醛，省去除甲醛費用</p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn rounded-0 border-0" style="background-color:#FFF200;"
-                  data-toggle="modal" data-target="#exampleModal">
+                  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   <div class="fs-5 fw-bold"><svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus"
                       fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd"
@@ -386,13 +387,13 @@
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                  aria-hidden="true">
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">ASTM D5116</h5>
-                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        <h5 class="modal-title" id="staticBackdropLabel">ASTM D5116</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         <div class="row fs-6">
@@ -425,8 +426,7 @@
                           width="100%" height="500"></iframe>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary rounded-0 border-0"
-                          data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
@@ -454,14 +454,56 @@
                 <p class="fs-6 fw-bold">複合木同一些不燃材料般，在關鍵時刻時多一秒鐘</p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn rounded-0 border-0" style="background-color:#FFF200;"
-                  data-toggle="modal" data-target="#exampleModal01">
+                  data-bs-toggle="modal" data-bs-target="#staticBackdrop01">
                   <div class="fs-5 fw-bold"><svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus"
                       fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd"
                         d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                     </svg>SGS Fire Test(ASTM-E84火焰傳播測試報告)</div>
                 </button>
-
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop01" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">ASTM E84</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="list-unstyled fs-6">
+                          <li>
+                            <div class="fw-bold">ASTM E84 建築材料表面燃燒特性的測試方法</div>
+                          </li>
+                          <li> ASTM E84 Standard test method for surface burning characteristics of building materials。
+                          </li>
+                          <li>火焰傳播是指火焰在材料表面的發展，它關係到火災信鄰近可燃物而使火勢擴大，火焰傳播性能常以隧道法及輻射板法測試。 此ASTM
+                            E84法用於測定建築材料的火焰傳播速率(同時測定煙霧濃度)，按ASTM E84的規定，ASTM
+                            E84隧道法的所用設備為一個長為7.62m，開口端橫截面為0.45m*0.30m的內襯耐火磚的鋼槽，槽側有窗口。</li>
+                          <li>
+                            樣品至少1個，尺寸為0.51m*7.32m*使用最大厚度。點燃源為2個煤氣噴燈，能量輸出為5.3MJ/min，位於試件之下，距樣品190mm，平行於試驗室火的末端，相距305mm，根據試驗測得的火焰傳播速率值Flame
+                            Spread Index (FSI值)及煙密度值將材料分類。</li>
+                          <li>
+                            火焰傳播速率值FSI值越小的材料，火災危險性越小。高層建築和樓道，應採用FSI＜25的材料，25＜FSI＜100的材料只能用於防火要求不是很嚴格的場所，而FSI＞100的材料不符合阻燃的要求。
+                          </li>
+                          <li>
+                            <div class="fw-bold">ASTM E84防火等級劃分</div>
+                            <ul>
+                              <li>ASTM E84 Class A為0-25且煙指數不超過450。</li>
+                              <li>ASTM E84 Class B為26-75且煙指數不超過450。</li>
+                              <li>ASTM E84 Class C類76-200且煙指數不超過450。</li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <iframe src="https://drive.google.com/file/d/1tdUhNhlxjlOo-zWoSsqLcOP7FvpxN-9D/preview"
+                          width="100%" height="500"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel01"
                   aria-hidden="true">
@@ -474,7 +516,7 @@
                       <div class="modal-body">
                         <ul class="list-unstyled fs-6">
                           <li>
-                            <div class="fw-bold">ASTM E84 建築材料表面燃燒特性的測試方法。</div>
+                            <div class="fw-bold">ASTM E84 建築材料表面燃燒特性的測試方法</div>
                           </li>
                           <li> ASTM E84 Standard test method for surface burning characteristics of building materials。
                           </li>
@@ -900,105 +942,105 @@
     </article>
   </main>
   <footer class="container-fluid container-md pt-2 mb-5">
-        <div class="row">
-            <div class="col-sm-1 col-md-3 mb-3">
-                <p>
-                    <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
-                        aria-controls="collapseExample">
-                        <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                        </svg>
-                        MEKKING電鍍保護劑
-                    </button>  
-                </p>
-                <div class="collapse mb-2" id="collapseExample">
-                    <div class="card card-body">
-                        <header>
-                            <h3 class="card-title">電鍍保護劑</h3>
-                        </header>
-                        <p class="card-text">
-                            無論你是騎乘重機還是開車，愛駒上總少不了電鍍金屬部件，像是閃亮的輪圈、廠徽、排氣管、把手等等，
-                            對愛車如命的我們想要長時間維持這些部件的光澤，是件很不容易的事。<br>市面品牌百百種，但來自
-                            日本的MEKKING電鍍保護劑據說能讓愛車「保鮮」半年，真有那麼神奇嗎？
-                        </p>
-                        <a href="/NAKARAI.html" class="btn btn-outline-dark rounded-0">了解更多</a>
-                        <footer class="card-text pt-2">
-                            <small class="text-muted">メッキ工房 NAKARAI</small>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1 col-md-3 mb-3">
-                <p>
-                    <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
-                        aria-controls="collapseExample1">
-                        <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                        </svg>
-                        ONEEARTHCAFé藍色微光
-                    </button>
-                </p>
-                <div class="collapse mb-2" id="collapseExample1">
-                    <div class="card card-body">
-                        <header>
-                            <h3 class="card-title">藍色微光</h3>
-                        </header>
-    
-                        <p class="card-text pt-2">
-                            經營一間雅致的小店；揭示一則警世的箴言；來自一畝有機的田地；保留一塊心中的藍天。
-                            藍色微光望能以微薄的力量，貢獻一己於市井之中，支持在地作物、有機農業、公平貿易，
-                            減用一次性產品。讓顧客品嚐美味的咖啡與甜點之際，亦能體會環境對我們的重要性。這是
-                            我們的理想。希望大家一起支持我們、一起維護這個獨一無二的星球。
-                        </p>
-                        <a href="/OneEarthCafe.html" class="btn btn-outline-dark rounded-0">了解更多</a>
-                        <footer class="card-text pt-2">
-                            <small class="text-muted">J'ai de la chance de vous rencontrer</small>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1 col-md-3 mb-3">
-                <p>
-                    <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false"
-                        aria-controls="collapseExample2">
-                        <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                        </svg>
-                        STAINLESS不鏽鋼五金
-                    </button>
-                </p>
-                <div class="collapse mb-2" id="collapseExample2">
-                    <div class="card card-body">
-                        <header>
-                            <h3 class="card-title">不鏽鋼衛浴五金</h3>
-                        </header>
-                        <p class="card-text">
-                            品質是富棠國際對於客戶的承諾，唯有高品質的產品及專業的技術才能長久經營企業並持續服務。
-                            我們提供不鏽鋼衛水龍頭及衛浴相關配件掛件類產品，如果您對我們的產品有興趣，現在就與我們
-                            聯繫，我們會依照您的需求，為您量身訂作提供最好的產品和技術服務
-                        </p>
-                        <a href="/StainlessSteel.html" class="btn btn-outline-dark rounded-0">了解更多</a>
-                        <footer class="card-text pt-2">
-                            <small class="text-muted">FULLTOWN International co. ltd</small>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1 col-md-3 text-end">
-                <small class="fw-bold">Copyright Ⓒ 2014-2021 富棠國際 </small>
-                <script type="text/javascript" src="//counter.websiteout.net/js/36/6/23598/1"></script>
-            </div>
+    <div class="row">
+      <div class="col-sm-1 col-md-3 mb-3">
+        <p>
+          <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
+            aria-controls="collapseExample">
+            <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            MEKKING電鍍保護劑
+          </button>
+        </p>
+        <div class="collapse mb-2" id="collapseExample">
+          <div class="card card-body">
+            <header>
+              <h3 class="card-title">電鍍保護劑</h3>
+            </header>
+            <p class="card-text">
+              無論你是騎乘重機還是開車，愛駒上總少不了電鍍金屬部件，像是閃亮的輪圈、廠徽、排氣管、把手等等，
+              對愛車如命的我們想要長時間維持這些部件的光澤，是件很不容易的事。<br>市面品牌百百種，但來自
+              日本的MEKKING電鍍保護劑據說能讓愛車「保鮮」半年，真有那麼神奇嗎？
+            </p>
+            <a href="/NAKARAI.html" class="btn btn-outline-dark rounded-0">了解更多</a>
+            <footer class="card-text pt-2">
+              <small class="text-muted">メッキ工房 NAKARAI</small>
+            </footer>
+          </div>
         </div>
-    </footer>
+      </div>
+      <div class="col-sm-1 col-md-3 mb-3">
+        <p>
+          <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
+            aria-controls="collapseExample1">
+            <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            ONEEARTHCAFé藍色微光
+          </button>
+        </p>
+        <div class="collapse mb-2" id="collapseExample1">
+          <div class="card card-body">
+            <header>
+              <h3 class="card-title">藍色微光</h3>
+            </header>
+
+            <p class="card-text pt-2">
+              經營一間雅致的小店；揭示一則警世的箴言；來自一畝有機的田地；保留一塊心中的藍天。
+              藍色微光望能以微薄的力量，貢獻一己於市井之中，支持在地作物、有機農業、公平貿易，
+              減用一次性產品。讓顧客品嚐美味的咖啡與甜點之際，亦能體會環境對我們的重要性。這是
+              我們的理想。希望大家一起支持我們、一起維護這個獨一無二的星球。
+            </p>
+            <a href="/OneEarthCafe.html" class="btn btn-outline-dark rounded-0">了解更多</a>
+            <footer class="card-text pt-2">
+              <small class="text-muted">J'ai de la chance de vous rencontrer</small>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1 col-md-3 mb-3">
+        <p>
+          <button class="btn btn-outline-dark btn-sm rounded-0 fs-6 fw-bold border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false"
+            aria-controls="collapseExample2">
+            <svg width="1.3rem" height="1.3rem" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            STAINLESS不鏽鋼五金
+          </button>
+        </p>
+        <div class="collapse mb-2" id="collapseExample2">
+          <div class="card card-body">
+            <header>
+              <h3 class="card-title">不鏽鋼衛浴五金</h3>
+            </header>
+            <p class="card-text">
+              品質是富棠國際對於客戶的承諾，唯有高品質的產品及專業的技術才能長久經營企業並持續服務。
+              我們提供不鏽鋼衛水龍頭及衛浴相關配件掛件類產品，如果您對我們的產品有興趣，現在就與我們
+              聯繫，我們會依照您的需求，為您量身訂作提供最好的產品和技術服務
+            </p>
+            <a href="/StainlessSteel.html" class="btn btn-outline-dark rounded-0">了解更多</a>
+            <footer class="card-text pt-2">
+              <small class="text-muted">FULLTOWN International co. ltd</small>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1 col-md-3 text-end">
+        <small class="fw-bold">Copyright Ⓒ 2014-2021 富棠國際 </small>
+        <script type="text/javascript" src="//counter.websiteout.net/js/36/6/23598/1"></script>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Optional JavaScript; choose one of the two! -->
@@ -1009,8 +1051,12 @@
     </script> -->
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
   <!-- Masonry CSS -->
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </body>
