@@ -1,3 +1,2 @@
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://fulltown.taipei [R=301,L]
+RewriteEngine on
+RewriteRule ^(.*)$ http://fulltown.taipei/$1 [R=301,L]
