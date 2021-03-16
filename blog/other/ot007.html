@@ -9,8 +9,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 
     <!-- Put the following javascript before the closing </head> tag
         and replace 123:456 with your own Programmable Search Engine ID. -->
@@ -19,29 +24,45 @@
 </head>
 
 <body>
+    <!-- FACEBOOK 推薦語法 -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v10.0&appId=884376048804576&autoLogAppEvents=1"
+        nonce="LWIICf2j"></script>
+    <!-- END FACEBOOK 推薦語法 -->
+    <!-- LINE 推薦語法 -->
+    <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async"
+        defer="defer"></script>
+    </script>
+    <!-- END LINE 推薦語法 -->
+
     <header>
-        <div class="container-fluid container-md">
+        <section class="container-fluid container-md">
             <!-- Image and text -->
             <div class="navbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html">
+                    <a class="navbar-brand animate__animated animate__fadeInRightBig" href="/index.html">
                         <img src="/img/index/en2021logo.svg" width="" height="30" type="image/svg+xml" alt="FULLTOWN">
                     </a>
-                    <form class="d-flex justify-content-end d-block d-lg-none">
+                    <form
+                        class="d-flex justify-content-end d-block d-lg-none  animate__animated animate__fadeInRightBig">
+                        <div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="@708wtmtw"
+                            style="display: none;"></div>
                         <script type="text/javascript" src="//counter.websiteout.net/js/36/6/23598/1"></script>
                     </form>
-                    <form class="d-flex justify-content-end d-none d-lg-block">
+                    <form
+                        class="d-flex justify-content-end d-none d-lg-block  animate__animated animate__fadeInRightBig">
                         <div class="gcse-searchbox-only"></div>
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
-    <div class="d-flex bg-light">
+    <section class="d-flex bg-light">
         <div class="container-fluid container-md">
             <div class="navbar navbar-light bg-light">
                 <div class="container-fluid">
-                    <div class="col">
+                    <div class="col animate__animated animate__flipInX">
                         <span class="d-inline fs-2">
                             複合木專區 <span class="fs-6">應用</span>
                         </span>
@@ -49,16 +70,16 @@
                             <font face='Notable' , sans-serif; size='1rem'>Green Resources Material</font>
                         </span>
                     </div>
-                    <form class="d-flex justify-content-end d-none d-lg-block">
+                    <form class="d-flex justify-content-end d-none d-lg-block animate__animated animate__flipInY">
                         <img src="/img/index/grm.svg" width="" height="45" type="image/svg+xml" alt="FULLTOWN">
                     </form>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid container-md sticky-top">
-        <nav class="nav" style="background-color:#ffffff;">
-            <a class="nav-link text-decoration-underline fw-bold" href="/biowood.html">
+    </section>
+    <nav class="container-fluid container-md sticky-top">
+        <section class="nav fw-bold animate__animated animate__fadeInDown" style="background-color:#ffffff;">
+            <a class="nav-link text-decoration-underline" href="/biowood.html">
                 <font color="#D0342C">介紹</font>
             </a>
             <a class="nav-link text-decoration-underline fw-bold" href="/blog/page/item.html">
@@ -71,8 +92,18 @@
                 href="https://drive.google.com/file/d/1sq7c3byOPFnfUGRbpYbmx0cZYlcw-HXc/view">
                 <font color="#D0342C">型錄</font>
             </a>
-        </nav>
-    </div>
+        </section>
+    </nav>
+    <main>
+        <article>
+            <div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="@708wtmtw" style="display: none;"></div>
+        </article>
+        <aside></aside>
+    </main>
+    <footer>
+        <time></time>
+    </footer>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -80,6 +111,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
