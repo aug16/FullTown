@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^(.*)$ http://fulltown.taipei/$1 [R=301,L]
+RewriteRule ^(.*)$ https://fulltown.taipei/$1 [R=301,L]
