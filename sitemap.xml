@@ -6,29 +6,29 @@
         <priority>1.00</priority>
     </url>
     <url>
+        <loc>https://fulltown.taipei/index.html</loc>
+        <lastmod>2021-02-22T02:38:07+00:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://fulltown.taipei/productline/biowood.html</loc>
-        <lastmod>2021-02-22T02:38:05+00:00</lastmod>
+        <lastmod>2021-03-18T02:38:05+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://fulltown.taipei/productline/NAKARAI.html</loc>
-        <lastmod>2021-02-22T02:38:05+00:00</lastmod>
+        <lastmod>2021-03-18T02:38:05+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://fulltown.taipei/productline/OneEarthCafe.html</loc>
-        <lastmod>2021-02-22T02:38:05+00:00</lastmod>
+        <lastmod>2021-03-18T02:38:05+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://fulltown.taipei/productline/StainlessSteel.html</loc>
-        <lastmod>2021-02-22T02:38:05+00:00</lastmod>
+        <lastmod>2021-03-18T02:38:05+00:00</lastmod>
         <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://fulltown.taipei/index.html</loc>
-        <lastmod>2021-02-22T02:38:07+00:00</lastmod>
-        <priority>0.64</priority>
     </url>
     <url>
         <loc>https://fulltown.taipei/blog/page/item.html</loc>
@@ -183,6 +183,11 @@
     <url>
         <loc>https://fulltown.taipei/blog/handrail/hr005.html</loc>
         <lastmod>2021-02-22T02:38:05+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://fulltown.taipei/blog/other/ot007.html</loc>
+        <lastmod>2021-03-18T20:10:05+00:00</lastmod>
         <priority>0.51</priority>
     </url>
     <url>
