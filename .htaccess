@@ -1,2 +1,3 @@
 RewriteEngine on
 RewriteRule ^(.*)$ https://fulltown.taipei/$1 [R=301,L]
+redirect 301 https://fulltown.taipei/biowood.html https://fulltown.taipei/productline/biowood.html
