@@ -1,4 +1,6 @@
 RewriteEngine on
 RewriteRule ^(.*)$ https://fulltown.taipei/$1 [R=301,L]
+
+RewriteEngine on
 RewriteCond %{HTTP_HOST} ^https://fulltown.taipei/biowood.html$
 RewriteRule ^$ https://fulltown.taipei/productline/biowood.html [L,R=301]
