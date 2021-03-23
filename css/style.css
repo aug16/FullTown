@@ -1,353 +1,79 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Notable&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@100;300&display=swap");
+/*
+ * Border Color Fade
+ * Blue: #66d8ed
+ */
+ .ghost-button-border-color {
 
-.eg {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Montserrat Subrayada", sans-serif;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
 }
-.eg1 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Montserrat Subrayada", sans-serif;
-  font-size: 1.3rem;
-}
-
-.mixed {
-  font-family: "Notable", sans-serif;
-  font-size: 3rem;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  -webkit-text-orientation: mixed;
-  text-orientation: mixed;
-  transform: rotate(-180deg);
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #66d8ed;
+  border-color: #66d8ed;
+  -webkit-transition: border-color 0.4s ease-in,              color 0.4s ease-in;
+  transition: border-color 0.4s ease-in,              color 0.4s ease-in;
+  -moz-transition: border-color 0.4s ease-in,              color 0.4s ease-in;
+  -ms-transition: border-color 0.4s ease-in,              color 0.4s ease-in;
+  -o-transition: border-color 0.4s ease-in,              color 0.4s ease-in;
 }
 
-.mixed1 {
-  font-family: "Notable", sans-serif;
-  font-size: 1rem;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  -webkit-text-orientation: mixed;
-  text-orientation: mixed;
-  transform: rotate(-180deg);
+.a {
+  max-width: 1140px;
 }
 
-.mixed3 {
-  font-family: "Notable", sans-serif;
-  font-size: 2.9rem;
-  -ms-writing-mode: tb-rl;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  -webkit-text-orientation: mixed;
-  text-orientation: mixed;
-  transform: rotate(-180deg);
+.a_box {
+  background-image: url('/img/biowood/002.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.b_box {
+  background-image: url('/img/biowood/003.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.c_box {
+  background-image: url('/img/biowood/004.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.d_box {
+  background-image: url('/img/biowood/005.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.e_box {
+  background-image: url('/img/biowood/006.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.f_box {
+  background-image: url('/img/biowood/007.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.g_box {
+  background-image: url('/img/biowood/008.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-.mixed2 {
-  font-family: "Notable", sans-serif;
-  font-size: 1.5rem;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  -webkit-text-orientation: mixed;
-  text-orientation: mixed;
-  transform: rotate(-0deg);
+.border_style {
+  border-left-style:solid; 
+  border-color:#D0342C; 
+  border-width:1rem; 
 }
 
-.t2 {
-  font-family: "Notable", sans-serif;
-  font-size: 1.2rem;
-}
-
-.t21 {
-  font-family: "Notable", sans-serif;
-  font-size: 0.8rem;
-}
-
-.t2_1 {
-  font-family: "Notable", sans-serif;
-  font-size: 1rem;
-}
-
-.t1 {
-  font-family: "Lato", sans-serif;
-  font-size: 1.7rem;
-}
-
-.t3 {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-}
-
-.card-text {
-  font-size: 0.9rem;
-}
-
-.t01 {
-  position: relative;
-}
-
-.t02 {
-  position: absolute;
-  top: 50px;
-  left: 25px;
-}
-
-.t03 {
-  position: absolute;
-  top: 340px;
-  left: 200px;
-}
-
-.h-01 {
-  position: relative;
-  height: 3rem;
-}
-
-.h-02 {
-  position: relative;
-  top: 0.25rem;
-}
-
-.border-bottom1 {
-  border-bottom: 2px solid #ffffff;
-}
-
-.border-bottom2 {
-  border-bottom: 2px solid #6c757d;
-}
-
-.h-03 {
-  position: relative;
-  height: 2.4rem;
-}
-
-.h-04 {
-  position: relative;
-  height: 2.3rem;
-}
-
-.h-05 {
-  position: relative;
-  height: 5rem;
-}
-
-.h-06 {
-  height: 4.9em;
-}
-
-/* Underline Reveal */
-.hvr-underline-reveal {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-}
-
-.hvr-underline-reveal:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #2098d1;
-  height: 4px;
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px);
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.hvr-underline-reveal:hover:before,
-.hvr-underline-reveal:focus:before,
-.hvr-underline-reveal:active:before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.mydeal-nav-brand::-webkit-scrollbar {
-  display: none;
-}
-
-.mydeal-nav-brand {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-
-.f-01 {
-  position: absolute;
-  top: 0.5rem;
-}
-
-.ft_box_1 {
-  border: 0.2rem solid #66cdd9;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_1::before {
-  background-color: #fff;
-  color: #66cdd9;
-  content: "WALLPANEL";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-  font-family: "Notable", sans-serif;
-}
-
-.ft_box_2 {
-  border: 0.2rem solid #04bf10;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_2::before {
-  background-color: #fff;
-  color: #04bf10;
-  content: "CEILING";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-  font-family: "Notable", sans-serif;
-}
-
-.ft_box_3 {
-  border: 0.2rem solid #f2b705;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_3::before {
-  background-color: #fff;
-  color: #f2b705;
-  content: "DECKING";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-  font-family: "Notable", sans-serif;
-}
-
-.ft_box_4 {
-  border: 0.2rem solid #5151a2;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_4::before {
-  background-color: #fff;
-  color: #5151a2;
-  content: "Lattice";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-  font-family: "Notable", sans-serif;
-}
-
-.ft_box_5 {
-  border: 0.2rem solid #4e94bf;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_5::before {
-  background-color: #fff;
-  color: #4e94bf;
-  content: "Louver";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-  font-family: "Notable", sans-serif;
-}
-
-.ft_box_6 {
-  border: 0.2rem solid #4e94bf;
-  /* 框線顏色 */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  position: relative;
-}
-
-.ft_box_6::before {
-  background-color: #fff;
-  color: #4e94bf;
-  content: "如何購買";
-  /*標題*/
-  font-weight: bold;
-  font-size: 1rem;
-  left: 1.2rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: -1rem;
-}
-
-.ht-1 {
-  position: absolute;
-  top: 0.45rem;
-  left: 10.3rem;
-  font-size: 1.2rem;
-}
-
-.ht_2 {
-  position: absolute;
-  top: 0.45rem;
-  left: 12.5rem;
-  font-size: 1.2rem;
-}
-
-.text-muted {
-  font-size: rem;
-}
-
-.t04 {
-  position: absolute;
-  top: -80px;
-  left: 15px;
-}
-
-.card-columns1 {
-  column-gap: 0;
-}
-
-.card-columns1 .card {
-  margin: 0;
+.border_style1 {
+  border-left-style:solid; 
+  border-color:#D0342C; 
+  border-width:0.4rem; 
 }
