@@ -2,5 +2,5 @@ RewriteEngine on
 RewriteRule ^(.*)$ https://fulltown.taipei/$1 [R=301,L]
 Redirect 301 /biowood.html https://fulltown.taipei/page/BIOWOOD_tw.html
 Redirect 301 /NAKARAI.html https://fulltown.taipei/page/NAKARAI_tw.html
-Redirect 301 blog/page/item.html https://fulltown.taipei/page/biowood/item.html
-Redirect 301 blog/page/blog.html https://fulltown.taipei/page/biowood/blog.html
+Redirect 301 /blog/page/item.html https://fulltown.taipei/page/biowood/item.html
+Redirect 301 /blog/page/blog.html https://fulltown.taipei/page/biowood/blog.html
