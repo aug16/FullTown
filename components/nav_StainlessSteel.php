@@ -1,6 +1,0 @@
-<nav class="nav nav-pills nav-fill position-relative" style="height: 4.8rem;">
-  <div class="d-flex align-items-center" style="background-color: #D0342C;"><a class="nav-link mx-4 d-none d-lg-block" href="/index.php"><img src="/img/en2021logo_2.svg" width="" height="26" type="image/svg+xml" alt="FULLTOWN"></a></div>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/BIOWOOD_tw.php" aria-current="page"><i class="bi-tree" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">複合木</span></a>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/NAKARAI_tw.php" aria-current="page"><i class="bi-gift" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">電鍍保護劑</span></a>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/OneEarthCafe.php" aria-current="page"><i class="bi-shop" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">藍色微光</span></a>
-</nav>

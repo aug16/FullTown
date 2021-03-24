@@ -1,7 +1,0 @@
-<nav class="nav nav-pills nav-fill position-relative" style="height: 4.8rem;">
-  <div class="d-flex align-items-center" style="background-color: #D0342C;"><a class="nav-link mx-4 d-none d-lg-block" href="/index.php"><img src="/img/en2021logo_2.svg" width="" height="26" type="image/svg+xml" alt="FULLTOWN"></a></div>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/BIOWOOD_tw.php" aria-current="page"><i class="bi-megaphone" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">介紹</span></a>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/biowood/item.php" aria-current="page"><i class="bi-palette2" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">類別</span></a>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="/page/biowood/blog.php" aria-current="page"><i class="bi-images" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">案例</span></a>
-  <a class="nav-link d-flex align-items-center justify-content-center rounded-0 border-end link-dark ghost-button-border-color" href="https://drive.google.com/open?id=1sq7c3byOPFnfUGRbpYbmx0cZYlcw-HXc" aria-current="page"><i class="bi-download" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">型錄</span></a>
-</nav>
