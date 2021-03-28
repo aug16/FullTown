@@ -27,7 +27,7 @@ for (var i in elements) {
 
   var templates = {
     prefix: "",
-    suffix: "ago",
+    suffix: " ago",
     seconds: "less than a minute",
     minute: "a minute",
     minutes: "%d minutes",
