@@ -52,27 +52,7 @@
 </head>
 
 <body>
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        appId: '884376048804576',
-        xfbml: true,
-        version: 'v10.0'
-      });
-      FB.AppEvents.logPageView();
-    };
-
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {
-        return;
-      }
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+  
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v10.0&appId=884376048804576&autoLogAppEvents=1"
@@ -97,8 +77,30 @@
         href="https://drive.google.com/open?id=1sq7c3byOPFnfUGRbpYbmx0cZYlcw-HXc" aria-current="page"><i
           class="bi-download" style="font-size: 1.2rem; color:#939597;"></i><span class="ms-1">型錄</span></a>
     </nav>
+    <!-- 社群推薦按鈕 -->
+    <aside class="mt-2">
+      <div class="clearfix">
+        <span class="d-flex float-start">
+          <div class="fb-like" data-href="https://fulltown.taipei/page/biowood/blog.html" data-width=""
+            data-layout="button" data-action="recommend" data-size="small" data-share="true">
+          </div>
+          <div class="line-it-button" data-lang="zh_Hant" data-type="like"
+            data-url="https://fulltown.taipei/page/biowood/blog.html" data-lineid="@708wtmtw"
+            style="display: none;">
+          </div>
+          <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async"
+            defer="defer"></script><span class="ms-1">官方帳號</span>
+          <div class="px-2">
+            <script type="text/javascript" src="//counter.websiteout.net/js/36/6/23598/1"></script>
+          </div>
+        </span><span class="d-flex float-end">
+          <div class="fb-save" data-uri="https://fulltown.taipei/page/biowood/blog.html" data-size="small"></div>
+        </span>
+      </div>
+    </aside>
+    
     <div class="container a mb-5">
-      <h1 class="text-center pt-5 fs-2 ">實績案例<br>
+      <h1 class="text-center pt-3 fs-2 ">實績案例<br>
         <i class="bi-distribute-vertical" style="font-size: 1.2rem; color: #D0342C;"></i>
       </h1>
       <h6 class="text-center t1 mb-5">construction case</h6>
